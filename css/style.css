@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.icon-warning {
+    color: #fd9800;
+}
+
+#contact {
+    max-width: 1090px;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+
+/* HEADER */
+
+.menu {
+    background-color: #191f31;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu ul {
+    text-transform: uppercase;
+}
+
+.menu a {
+    color: rgb(136, 136, 136);
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+.logo {
+    width: 50%;
+}
+
+/* HOME */
+
+#home {
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../assets/home-bg-darken.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    padding: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    padding: 20px;
+}
+
+.description {
+    font-size: 1.5rem;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+/* SERVICES */
+
+.left-side {
+    float: left;
+    width: 50%;
+}
+
+.right-side {
+    float:right;
+    width: 50%;
+}
+
+.description-service {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.services-list {
+    list-style: square;
+    margin-left: 30px;
+}
+
+.services-list li {
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.box-content {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 605px;
+    grid-template-columns: repeat(auto-fit, 140px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-item {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.box-item i, .item-label {
+    display: block;
+    margin-top: 20px;
+}
+
+.item-label {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ABOUT */
+
+.description-about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 20px 20%;
+    text-align: left;
+}
+
+.about-title {
+    color: #fd9800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parallax-about {
+    /* The image used */
+    background-image: url("../assets/parallax-about.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Contact */
+#contact {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-info {
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.text-left {
+    text-align: left;
+    padding: 50px;
+}
+

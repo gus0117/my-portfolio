@@ -1,0 +1,47 @@
+.form {
+    
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group > label {
+    display: block;
+}
+
+.form-control {
+    border-style: none none solid none;
+    border-color: #d85c0a;
+    width: 500px;
+    background-color: transparent;
+    border-width: 2px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.form-control::placeholder {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.form-control:focus {
+    border-style: none none solid none;
+    border-color: #d85c0a;
+}
+
+.form textarea {
+    resize: none;
+}

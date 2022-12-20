@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/tables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container">
+      <nav class="nav">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+              <div class="nav-title icon-link">
+                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.797 12.875c.439 4.139 3.95 7.373 8.203 7.373a8.2 8.2 0 0 0 3.351-.712c-1.889-.775-3.94-1.79-5.99-2.97a51.24 51.24 0 0 1-5.564-3.691Z"></path>
+                  <path d="M23.096 15.915c-.398-.53-.937-1.116-1.593-1.735a9.627 9.627 0 0 1-.516 1.594c1.346 1.383 1.556 2.125 1.508 2.271-.094.104-.8.323-2.726-.166a19.213 19.213 0 0 1-1.552-.466c.345-.396.652-.823.916-1.277l.024-.041a8.22 8.22 0 0 0 1.046-4.986C19.755 6.976 16.247 3.75 12 3.75a8.22 8.22 0 0 0-4.987 1.682 8.316 8.316 0 0 0-2.149 2.43c-.007.014-.016.028-.024.041a8.225 8.225 0 0 0-.648 1.43 23.66 23.66 0 0 1-.506-.453 18.417 18.417 0 0 1-.676-.656c-1.386-1.418-1.55-2.138-1.507-2.27.101-.115.848-.307 2.725.166a9.839 9.839 0 0 1 1.125-1.245c-.884-.263-1.678-.439-2.346-.516-1.44-.165-2.384.119-2.803.844-.152.262-.298.707-.128 1.34.252.941 1.15 2.082 2.42 3.277.404.381.846.768 1.317 1.155a38.638 38.638 0 0 0 2.614 1.963 52.904 52.904 0 0 0 5.026 3.079 49.08 49.08 0 0 0 4.323 2.073c.413.172.816.33 1.21.477.558.207 1.096.39 1.608.543l.052.015c1.206.36 2.223.548 3.023.563h.081c1.014 0 1.702-.3 2.043-.89.426-.733.191-1.703-.697-2.883Z"></path>
+                </svg>
+              </div>
+          </div>
+          <div class="nav-btn">
+              <label for="nav-check">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </label>
+          </div>
+          <div class="nav-links">
+              <a href="#presentation">01.Presentación</a>
+              <a href="#experiencie">02.Experiencia</a>
+              <a href="#projects">03.Proyectos</a>
+              <a href="#contact">04.Contacto</a>
+          </div>
+      </nav>
+  </header>
+
+  <main class="container" id="presentation">
+    <div class="sub-container">
+      <p class="hello">Hola, mi nombre es</p>
+      <h1 class="title-1">Gustavo Ordoñez</h1>
+      <h1 class="title-2">Hago proyectos webs y videojuegos.</h1>
+      <p class="description">
+        Soy Programador con amplio manejo de la herramienta
+        Unity 3d para desarrollo de videojuegos, me desenvuelvo
+        bien en lo que son los lenguajes de programación
+        orientados a objetos. Me encuentro en continuo
+        aprendizaje de las tecnologías de desarrollo web frontend
+        como ReactJS.
+      </p>
+      <a href="./files/Curriculum - Ordoñez, Gustavo Alberto - programador.pdf" download="Curriculum-Ordoñez, Gustavo Alberto" class="btn btn-green">Descargar Curriculum</a>
+    </div>
+  </main>
+
+  <section id="experiencie" class="container">
+    <div class="sub-container">
+      <h1 class="title-1">
+        Mis experiencias
+      </h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Lugar</th>
+            <th>Tipo</th>
+            <th>Rol</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01/2017-02/2017</td>
+            <td>TopFun</td>
+            <td>Emprendimiento</td>
+            <td>Programador en Unity</td>
+          </tr>
+          <tr>
+            <td>03/2017-10/2017</td>
+            <td>Widoo games studio</td>
+            <td>Emprendimiento</td>
+            <td>Programador en Unity</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="container" id="projects">
+    <div class="sub-container">
+      <h1 class="title-1">
+        Mis Proyectos
+      </h1>
+      <p class="description">Por ahora mis proyectos estan en github, pero los estare actualizando y publicando aquí.</p>
+      <div class="icon-link">
+        <svg fill="currentColor" width="26" height="26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 1.5C6.202 1.5 1.5 6.323 1.5 12.267c0 4.758 3.01 8.79 7.181 10.214a.82.82 0 0 0 .178.019c.39 0 .54-.286.54-.534 0-.258-.01-.933-.015-1.833a4.802 4.802 0 0 1-1.059.126c-2.02 0-2.48-1.57-2.48-1.57-.478-1.242-1.167-1.575-1.167-1.575-.914-.642-.005-.66.066-.66h.004c1.055.093 1.608 1.115 1.608 1.115.525.919 1.228 1.176 1.857 1.176a2.953 2.953 0 0 0 1.2-.28c.093-.695.365-1.168.665-1.44-2.33-.272-4.781-1.195-4.781-5.32 0-1.177.408-2.138 1.078-2.888-.108-.272-.469-1.369.103-2.85a.874.874 0 0 1 .235-.023c.38 0 1.237.145 2.653 1.13a9.76 9.76 0 0 1 5.259 0c1.416-.985 2.273-1.13 2.653-1.13a.873.873 0 0 1 .235.023c.571 1.481.21 2.578.103 2.85.67.755 1.078 1.716 1.078 2.888 0 4.134-2.456 5.043-4.796 5.31.375.333.713.99.713 1.993 0 1.439-.014 2.601-.014 2.953 0 .253.145.539.534.539a.9.9 0 0 0 .188-.019c4.176-1.425 7.181-5.46 7.181-10.214C22.5 6.323 17.798 1.5 12 1.5Z"></path>
+        </svg>
+        <a class="external-link" target="_blank" href="https://github.com/gus0117">https://github.com/gus0117</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="contact">
+    <div class="sub-container">
+      <h1 class="title-1">
+        Contactame
+      </h1>
+      <p class="description">Contactame conmigo por email y te respondere en la brevedad.</p>
+    </div>
+  </section>
+
+</body>
+</html>

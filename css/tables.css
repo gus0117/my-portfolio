@@ -1,0 +1,9 @@
+.table, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+    color: #a0b1cd;
+    border-color: #2effe0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 10px;
+}

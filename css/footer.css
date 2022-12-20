@@ -1,0 +1,23 @@
+/* FOOTER */
+
+.menu-footer {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.menu-footer a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.menu-footer a:hover {
+    color: #d85c0a;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+#footer {
+    background-color: #191f31;
+}

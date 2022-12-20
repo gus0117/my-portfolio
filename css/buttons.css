@@ -1,0 +1,36 @@
+.btn {
+    text-decoration: none;
+    padding: 10px 21px 10px 21px;
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 1rem;
+}
+
+.btn-warning {
+    color: #e2e2e2;
+    background-color: #be5600;
+    border-radius: 5px;
+    transition: 0.4s;
+    border-style: solid;
+    border-color: #be5600;
+}
+
+.btn-warning:hover {
+    color: #be5600;
+    background-color: #e2e2e2;
+    transition: 0.4s;
+}
+
+.btn-green {
+    background-color: transparent;
+    border-style: solid;
+    color: #02c4a7;
+    border-radius: 4px;
+    font-family: 'Chivo Mono', 'Poppins', sans-serif;
+    border-width: 1px;
+    transition: color 0.4s;
+}
+
+.btn-green:hover {
+    color: #2effe0;
+}

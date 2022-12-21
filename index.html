@@ -30,16 +30,16 @@
                   <span></span>
               </label>
           </div>
-          <div class="nav-links">
-              <a href="#presentation">01.Presentación</a>
-              <a href="#experiencie">02.Experiencia</a>
-              <a href="#projects">03.Proyectos</a>
-              <a href="#contact">04.Contacto</a>
+          <div id="navlinks" class="nav-links">
+              <a id="abo" onclick="clickMenuItem('abo')" class="selected">01.Presentación</a>
+              <a id="exp" onclick="clickMenuItem('exp')">02.Experiencia</a>
+              <a id="pro" onclick="clickMenuItem('pro')">03.Proyectos</a>
+              <a id="con" onclick="clickMenuItem('con')">04.Contacto</a>
           </div>
       </nav>
   </header>
 
-  <main class="container" id="presentation">
+  <main class="container" id="about">
     <div class="sub-container">
       <p class="hello">Hola, mi nombre es</p>
       <h1 class="title-1">Gustavo Ordoñez</h1>
@@ -56,7 +56,7 @@
     </div>
   </main>
 
-  <section id="experiencie" class="container">
+  <section id="experiencie" class="container hide">
     <div class="sub-container">
       <h1 class="title-1">
         Mis experiencias
@@ -88,7 +88,7 @@
     </div>
   </section>
 
-  <section class="container" id="projects">
+  <section class="container hide" id="projects">
     <div class="sub-container">
       <h1 class="title-1">
         Mis Proyectos
@@ -103,7 +103,7 @@
     </div>
   </section>
 
-  <section class="container" id="contact">
+  <section class="container hide" id="contact">
     <div class="sub-container">
       <h1 class="title-1">
         Contactame
@@ -111,6 +111,8 @@
       <p class="description">Contactame conmigo por email y te respondere en la brevedad.</p>
     </div>
   </section>
+
+  <script src="./js/effects.js"></script>
 
 </body>
 </html>

@@ -48,3 +48,7 @@ html {
 .icon-link {
     color: #a0b1cd;
 }
+
+.hide {
+    display: none;
+}

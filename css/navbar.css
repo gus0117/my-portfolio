@@ -46,6 +46,7 @@
   .nav > .nav-links > a:hover {
     color: var(--text-green-hover);
     transition: 0.4s;
+    cursor: pointer;
   }
   
   .nav > #nav-check {
@@ -107,3 +108,13 @@
         width: 35%;
     }
   }
+
+.container-menu{
+  margin-top: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

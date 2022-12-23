@@ -11,10 +11,15 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    overflow: hidden;
+}
+
 .container {
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-bottom: 50px;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   margin-left: 20px;
 }
 
 .hello {
@@ -49,6 +54,96 @@ html {
     color: #a0b1cd;
 }
 
+
+.move {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+}
+
+.move-out {
+    transform: translateX(150%);
+    -webkit-transform:translateX(50%);
+}
+
+.move-in {
+    transform: translateX(-150%);
+    -webkit-transform:translateX(-50%);
+}
+
 .hide {
     display: none;
 }
+
+
+
+
+
+.major-parent-box {
+    height: 300px;
+    width: 300px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin: 40px auto;
+    border-radius:4px;
+  }
+  
+  .parent-box {
+    /* width: 600px;
+    height: 500px;
+    display: flex;
+    overflow: hidden; */
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    margin-left: 100px;
+    width: 100%;
+  }
+  
+  .siblings {
+    display:block;
+    float:left;
+    height: 500px;
+    width: 50%;
+  }
+  
+  .sibling-one {
+    background-color: #8e24aa;
+  }
+  
+  .sibling-two {
+    background-color: #e65100;  
+  }
+  
+  span {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    line-height: 299px;
+  }
+  
+  button {
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #1565c0;
+    border-radius: 4px;
+    color: #1565c0;
+    cursor: pointer;
+    font-size:24px;
+    font-family:arial;
+  }
+  
+  .move-right {
+    transform: translateX(-200%);
+    -webkit-transform:translateX(-50%);
+  }

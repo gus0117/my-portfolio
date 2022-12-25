@@ -1,0 +1,13 @@
+.text-green {
+    color: #27ce80;
+    transition: color 0.4s;
+}
+
+.text-green:hover {
+    color: #45f8a5;
+    transition: color 0.4s;
+}
+
+.text-green-active {
+    color: #45f8a5;
+}

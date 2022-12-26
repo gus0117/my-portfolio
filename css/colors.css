@@ -16,3 +16,7 @@
 .text-green-active {
     color: var(--text-green-active)
 }
+
+.icon-link {
+    color: #a0b1cd;
+} 

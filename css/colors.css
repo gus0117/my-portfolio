@@ -1,13 +1,18 @@
+:root {
+    --text-green: #008b77;
+    --text-green-active: #02f0cc;
+}
+
 .text-green {
-    color: #27ce80;
+    color: var(--text-green);
     transition: color 0.4s;
 }
 
 .text-green:hover {
-    color: #45f8a5;
+    color: var(--text-green-active);
     transition: color 0.4s;
 }
 
 .text-green-active {
-    color: #45f8a5;
+    color: var(--text-green-active)
 }

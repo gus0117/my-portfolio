@@ -13,9 +13,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="sticky-top">
       <nav class="navbar navbar-expand-lg pt-4 px-5 navbar-dark" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -30,16 +31,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">01.<span class="text-green text-green-active">Presentación</span></a>
+                <a class="nav-link" href="#about">01.<span class="text-green">Presentación</span></a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencie">02.<span class="text-green">Experiencia</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">02.<span class="text-green">Experiencia</span></a>
+                <a class="nav-link" href="#projects">03.<span class="text-green">Proyectos</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">03.<span class="text-green">Proyectos</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">04.<span class="text-green">Contacto</span></a>
+                <a class="nav-link" href="#contact">04.<span class="text-green">Contacto</span></a>
               </li>
             </ul>
           </div>
@@ -60,7 +61,7 @@
           aprendizaje de las tecnologías de desarrollo web frontend
           como ReactJS.
         </p>
-        <a href="./files/Curriculum - Ordoñez, Gustavo Alberto - programador.pdf" download="Curriculum-Ordoñez, Gustavo Alberto" class="bt btn-green">Descargar Curriculum</a>
+        <a href="./files/Curriculum - Ordoñez, Gustavo Alberto - programador.pdf" download="Curriculum-Ordoñez, Gustavo Alberto" class="bt btn-green mb-5">Descargar Curriculum</a>
       </div>
     </main>
 
@@ -69,30 +70,32 @@
         <h1 class="title-1">
           Mis experiencias
         </h1>
-        <table class="table-green">
-          <thead>
-            <tr>
-              <th>Year</th>
-              <th>Lugar</th>
-              <th>Tipo</th>
-              <th>Rol</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>01/2017-02/2017</td>
-              <td>TopFun</td>
-              <td>Emprendimiento</td>
-              <td>Programador en Unity</td>
-            </tr>
-            <tr>
-              <td>03/2017-10/2017</td>
-              <td>Widoo games studio</td>
-              <td>Emprendimiento</td>
-              <td>Programador en Unity</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="center-content">
+          <table class="table-green">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Lugar</th>
+                <th>Tipo</th>
+                <th>Rol</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01/2017-02/2017</td>
+                <td>TopFun</td>
+                <td>Emprendimiento</td>
+                <td>Programador en Unity</td>
+              </tr>
+              <tr>
+                <td>03/2017-10/2017</td>
+                <td>Widoo games studio</td>
+                <td>Emprendimiento</td>
+                <td>Programador en Unity</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
@@ -120,5 +123,7 @@
         <p class="description">gustavoalberto117@gmail.com</p>
       </div>
     </section>
+
+    <script src="./js/effects.js"></script>
 </body>
 </html>

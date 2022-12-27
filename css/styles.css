@@ -3,7 +3,8 @@
     --bg-bluedark-hover: #0d2446;
     --text-green: #008b77;
     --text-green-hover: #02f0cc;
-  }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +41,13 @@ html {
 }
 
 .sh {
+    height: 100vh;
+}
 
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 

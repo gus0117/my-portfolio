@@ -50,6 +50,10 @@ html {
     align-items: center;
 }
 
+.section-icon {
+    color: var(--text-green-hover);
+}
+
 /* 
 .container-menu {
     margin-top: 10px;

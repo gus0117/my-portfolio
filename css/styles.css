@@ -54,6 +54,14 @@ html {
     color: var(--text-green-hover);
 }
 
+.img-perfil {
+    max-width: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--text-green-hover);
+    border-width: 5px;
+}
+
 /* 
 .container-menu {
     margin-top: 10px;

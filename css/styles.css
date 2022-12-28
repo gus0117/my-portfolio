@@ -36,7 +36,7 @@ html {
 
 .description {
     color: #7b86a3;
-    max-width: 500px;
+    max-width: 600px;
     margin-bottom: 50px;
 }
 
@@ -60,6 +60,18 @@ html {
     border-style: solid;
     border-color: var(--text-green-hover);
     border-width: 5px;
+}
+
+@media only screen and (max-width: 764px) {
+    .sh {
+       
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sh {
+        height: auto;
+    }
 }
 
 /* 

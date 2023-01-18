@@ -23,13 +23,13 @@ html {
 }
 
 .title-1 {
-    font-size: 55px;
+    font-size: 50px;
     color: #a0b1cd;
     margin-bottom: 10px;
 }
 
 .title-2 {
-    font-size: 45px;
+    font-size: 40px;
     color: #7b86a3;
     margin-bottom: 10px;
 }
@@ -55,7 +55,7 @@ html {
 }
 
 .img-perfil {
-    max-width: 300px;
+    max-width: 200px;
     border-radius: 50%;
     border-style: solid;
     border-color: var(--text-green-hover);

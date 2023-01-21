@@ -53,3 +53,18 @@
 .r-btn-download:hover {
     color: #2effe0;
 }
+
+.perfil-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.stat {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px 5px;
+    color: #00ddfa;
+    font-size: 25px;
+}

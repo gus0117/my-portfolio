@@ -82,3 +82,29 @@
 .external-link:hover {
     color: #c8f2f8;
 }
+
+@media only screen and (max-width: 946px) {
+    .main-info {
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    .main-info {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (max-width: 546px) {
+    .main-info {
+        max-width: 460px;
+    }
+
+    .title-1{
+        font-size: 45px;
+    }
+
+    .title-2{
+        font-size: 30px;
+    }
+}

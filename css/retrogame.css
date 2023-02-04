@@ -76,6 +76,7 @@
 .external-link {
     text-decoration: none;
     color: #00ddfa;
+    padding-left: 10px;
 }
 
 .external-link:hover {

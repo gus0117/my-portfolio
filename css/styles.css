@@ -17,6 +17,10 @@ html {
     scroll-behavior: smooth;
 }
 
+h1, h2, p, svg, a, path, .title-2 {
+    background-color: transparent;
+}
+
 .hello {
     color: var(--text-green-hover);
     margin-bottom: 10px;

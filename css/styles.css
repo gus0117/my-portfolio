@@ -66,18 +66,6 @@ h1, h2, p, svg, a, path, .title-2 {
     border-width: 5px;
 }
 
-@media only screen and (max-width: 764px) {
-    .sh {
-       
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .sh {
-        height: auto;
-    }
-}
-
 /* 
 .container-menu {
     margin-top: 10px;

@@ -1,0 +1,22 @@
+:root {
+    --text-green: #008b77;
+    --text-green-active: #02f0cc;
+}
+
+.text-green {
+    color: var(--text-green);
+    transition: color 0.4s;
+}
+
+.text-green:hover {
+    color: var(--text-green-active);
+    transition: color 0.4s;
+}
+
+.text-green-active {
+    color: var(--text-green-active)
+}
+
+.icon-link {
+    color: #a0b1cd;
+} 
